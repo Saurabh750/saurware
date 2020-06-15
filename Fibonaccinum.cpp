@@ -13,8 +13,7 @@ long long Fibonum() {
 	}
 	else
 	{
-		vector<long long> myfib;
-		myfib.resize(n + 1);
+		vector<long long> myfib(n+1);
 		myfib[0] = 0;
 		myfib[1] = 1;
 		for (int i = 2; i <= n; i++)
